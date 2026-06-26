@@ -5,25 +5,10 @@
   "installCommand": "npm install",
   "framework": "create-react-app",
   "routes": [
-    {
-      "src": "/vsw-admin-portal",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/vsw-student-portal",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/vsw-admin",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/vsw-student",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/vsw-admin-portal", "dest": "/index.html" },
+    { "src": "/vsw-student-portal", "dest": "/index.html" },
+    { "src": "/vsw-admin", "dest": "/index.html" },
+    { "src": "/vsw-student", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
